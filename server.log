@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "app.py", line 27, in <module>
+    ft.app(target=main, port=8080, host="0.0.0.0")
+  File "/Users/nehuen/burbuja/lib/python3.8/site-packages/flet/app.py", line 64, in app
+    return asyncio.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/Users/nehuen/burbuja/lib/python3.8/site-packages/flet/app.py", line 150, in app_async
+    await __run_socket_server(
+  File "/Users/nehuen/burbuja/lib/python3.8/site-packages/flet/app.py", line 267, in __run_socket_server
+    await conn.start()
+  File "/Users/nehuen/burbuja/lib/python3.8/site-packages/flet/flet_socket_server.py", line 62, in start
+    server = await asyncio.start_server(self.handle_connection, host, port)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/streams.py", line 94, in start_server
+    return await loop.create_server(factory, host, port, **kwds)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('::1', 8080, 0, 0): address already in use

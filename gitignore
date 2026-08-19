@@ -1,0 +1,5 @@
+venv_green/
+build/
+__pycache__/
+ventas.db
+.DS_Store

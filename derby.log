@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Aug 17 23:15:54 ART 2026:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-01a0-12a7-6131-000006cb7d58 
+on database directory /Library/Caches/Avid/AppManager/Db/appmanager.db with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/Applications/Avid/Application%20Manager/AvidAppManHelper.app/Contents/Java/AvidApplicationManagerHelper.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-u66-AvidOpenJDK-b17
+user.dir=/Users/nehuen
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

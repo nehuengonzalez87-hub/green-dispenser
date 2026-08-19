@@ -1,0 +1,8 @@
+sudo pmset -a disablesleep 1 # Desactiva el reposo del sistema
+sudo pmset -a disablesleep 0 # Permite que la Mac se duerma
+sudo pmset sleepnow # Pone la Mac en reposo
+caffeinate -u -t 2 # Enciende la pantalla remotamente
+open -a Finder # Abre la app Finder
+open . # Abre la carpeta actual en el Finder
+open ~/Downloads # Abre la carpeta de Descargas
+open https://www.google.com # Abre una pgina web
